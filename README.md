@@ -22,14 +22,19 @@ New files will be generated.
 $ make -f Makefile.login
 ```
 ### Execution:
-1. Open two seperate terminals.
-
-2. On server terminal run:
+1. On server terminal run:
 ```console
 $ sudo ./login_server
 ```
-3. On client terminal run:
+2. On client terminal run:
+If client is on seperate terminal on the same computer run:
 ```console
 $ sudo ./login_client localhost
 ```
+
+If client is on a different computer run:
+```console
+$ sudo ./login_client <ip address of server>
+```
+
 4. Follow instruction on the terminals.
