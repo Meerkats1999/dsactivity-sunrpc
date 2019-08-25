@@ -1,2 +1,0 @@
-# dsactivity-sunrpc
-python
