@@ -1,4 +1,4 @@
-# Simple Sign-up and Log-in system using SUN RPC in C language
+# Simple Sign-up and Log-in system using RPCGEN in Python language
 This short project was done as an assignment for Distributed Systems in 3rd Semester. Platform used is Ubuntu 18.04 LTS.
 
 ### Installation Instructions
