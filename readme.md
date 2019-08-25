@@ -7,12 +7,12 @@ This short project was done as an assignment for Distributed Systems in 3rd Seme
 ```console
 $ pip3 install rpyc
 ```
-###Compilation
+### Compilation
 
 ```console
 $ python3 'file_name.py'
 ```
-###Execution
+### Execution
 Enter the following on one terminal and the next one on the other
 ```console
 $ python3 server.py
