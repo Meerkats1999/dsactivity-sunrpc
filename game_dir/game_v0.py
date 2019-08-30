@@ -1,8 +1,9 @@
 import rpyc
 import pygame
 import random
+import sys
 
-connect = rpyc.connect("localhost",1025)
+connect = rpyc.connect(sys.argv[1],1025)
 pygame.init()
 myFont = pygame.font.SysFont("monospace", 35)
 
@@ -84,8 +85,8 @@ while not game_over:
     make_enemies(enemy_list)
     score = update_enemy_pos(enemy_list, score)
     SPEED = connect.root.set_level(score, SPEED)
-
-    text = "Score:" + str(score) + " HighScore: " + str(connect.root.high_score())
+    
+    text = "Score:" + str(score) + " HighScore:" + str(connect.root.high_score())
     label = myFont.render(text, 1, RED)
     screen.blit(label, (width-800, height-80))
 
