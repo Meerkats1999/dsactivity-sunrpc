@@ -38,3 +38,7 @@ $ sudo ./login_client <ip address of server>
 ```
 
 4. Follow instruction on the terminals.
+
+#### Contributors:
+###### Abhrajyoti Pal    1NT17IS119
+###### Shreyas R Venkat  1NT17IS160
